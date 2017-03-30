@@ -4,7 +4,11 @@ public class Caja {
 	private String descripcion;
 	private float precio;
 	private int cantidad;
-	
+	public Caja(String descripcion,float precio,int cantidad){
+		this.cantidad=cantidad;
+		this.precio=precio;
+		this.descripcion=descripcion;
+	}
 	public String getDescripcion() {
 		return descripcion;
 	}
